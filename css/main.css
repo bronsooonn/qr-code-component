@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+}
+
+body {
+  background-color: #F0F0F0;
+  height: 100vh;
+  width: 100%;
+}
+
+body .wrapper {
+  height: 70%;
+  width: 90%;
+  background-color: #d6e2f0;
+  margin: auto;
+  position: relative;
+  top: 15%;
+  -webkit-box-shadow: 5px 25px 25px lightgrey;
+          box-shadow: 5px 25px 25px lightgrey;
+}
+
+body .wrapper .card {
+  background-color: white;
+  width: 230px;
+  margin: auto;
+  position: relative;
+  top: 25%;
+  padding: 0.7em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  border-radius: 5%;
+  -webkit-box-shadow: 5px 10px 25px lightgrey;
+          box-shadow: 5px 10px 25px lightgrey;
+}
+
+body .wrapper .card img {
+  width: 100%;
+  margin-bottom: 1em;
+  border-radius: 3%;
+}
+
+body .wrapper .card p.qr-header {
+  font-weight: bold;
+  margin-bottom: 0.8em;
+}
+
+body .wrapper .card p.qr-description {
+  opacity: 0.5;
+  font-size: 0.7rem;
+  margin-bottom: 1em;
+}
+/*# sourceMappingURL=main.css.map */
