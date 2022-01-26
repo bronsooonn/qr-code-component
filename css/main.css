@@ -13,7 +13,7 @@ body {
   width: 100%;
 }
 
-body .wrapper {
+.wrapper {
   height: 70%;
   width: 90%;
   background-color: #d6e2f0;
@@ -24,7 +24,7 @@ body .wrapper {
           box-shadow: 5px 25px 25px lightgrey;
 }
 
-body .wrapper .card {
+.wrapper .card {
   background-color: white;
   width: 230px;
   margin: auto;
@@ -44,20 +44,28 @@ body .wrapper .card {
           box-shadow: 5px 10px 25px lightgrey;
 }
 
-body .wrapper .card img {
+.wrapper .card img {
   width: 100%;
   margin-bottom: 1em;
   border-radius: 3%;
 }
 
-body .wrapper .card p.qr-header {
+.wrapper .card p.qr-header {
   font-weight: bold;
   margin-bottom: 0.8em;
 }
 
-body .wrapper .card p.qr-description {
+.wrapper .card p.qr-description {
   opacity: 0.5;
   font-size: 0.7rem;
   margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 375px) {
+  .wrapper {
+    height: 100vh;
+    width: 100%;
+    position: inherit;
+  }
 }
 /*# sourceMappingURL=main.css.map */
